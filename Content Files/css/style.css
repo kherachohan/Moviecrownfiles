@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Kanit:wght@600;900&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Kanit:wght@600;900&family=PT+Sans&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital@1&family=Kanit:wght@600;900&family=PT+Sans&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=Bebas+Neue&family=Josefin+Sans:ital@1&family=Kanit:wght@600;900&family=PT+Sans&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=Bebas+Neue&family=Josefin+Sans:ital@1&family=Kanit:wght@600;900&family=PT+Sans&family=Quicksand:wght@500&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=Bebas+Neue&family=Josefin+Sans:ital@1&family=Kanit:wght@600;900&family=Mouse+Memoirs&family=PT+Sans&family=Quicksand:wght@500&family=Roboto:wght@700&display=swap');
+
+
+ @viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+} 
+.newbody{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+   background-color: #f5f5f5;
+}
+
+.navigationbar{
+    height: 75px;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    justify-content: center;
+    display: flex;
+    
+}
+.titlemovies{
+    width: auto;
+    height:auto;
+    background-color: rgb(105, 27, 105);
+    margin-bottom: 20px;
+   text-align: left;
+   
+}
+.titletext{
+    color: #ffffff;
+    font-family:  sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+                                 /* Main Content */
+    /* Column A*/
+#maincontainer{
+    width: 80%;
+    display: flex;
+    margin-right: 10%;
+    margin-left: 10%;
+   
+}
+#acolumn{
+    width: 100%;
+    justify-content: center;
+background-color: black;
+}
+.box-movies{
+    text-align: center;
+    width: 20%;
+    height: max-content;
+    position: relative;
+    border-radius: 10px;
+
+}
+
+.movies{
+    width: match-parent;
+    height: 350px;
+    border: 3px solid rgb(105, 27, 105);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+   
+.hrefbtn{
+    display: block;
+    text-decoration: none;
+    width: match-parent;
+  
+    
+}
+
+
+
+
+::marker {
+    unicode-bidi: none;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+    color: transparent;
+}
+
+.empty{
+    display: none;
+}
+
+
+
+
+
+
+
+
+        /* Movie Download Page */
+.moviedownloadinfo{
+background-color: white;
+width: 1fr;
+height: 100%;
+margin-top: 0px;
+padding-bottom: 0px;
+padding-top: 0px;
+margin-right: 3%;
+margin-left: 10%;
+padding-left: 7%;
+padding-right: 7%;
+}
+.downloadinfoheading{
+   text-align: left;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 20px;
+   background-color: rgb(105, 27, 105) ;
+   color: #ffffff;
+   font-size: 17px;
+   margin-top: 0px;
+   font-family: sans-serif;
+    
+    
+}
+.contentholder{
+    width: 100%;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns:1.15fr 0.65fr ;
+    grid-template-rows: 1fr;
+    column-gap: 10px;
+    grid-template-areas: "  title title";
+}
+.imgdownloadpage{
+    width: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    border: 2px solid rgb(105, 27, 105);
+
+}
+
+.infotext{
+   text-align: center;
+   font-size: 25px;
+  
+   padding-bottom: 2px;
+   font-family: sans-serif;
+}
+
+
+
+.navbar-downloadpage{
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 0px;
+    height: 75px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+
+.textbtndnld{
+    font-size: 100%;
+    height: max-content;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.buttonsdownload{
+    width: 1fr;
+    height: 100%;
+    margin-left: 10%;
+    margin-right: 3%;
+    background-color: #ffffff;
+}
+.buttontextinfo{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color:rgb(105, 27, 105);
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    width: 60%;
+    height: max-content;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: block;
+    margin-top: 40px;
+    border:  1px solid transparent;
+    border-radius: 15px;
+    padding: 5px 5px 5px 5px;
+}
+.textinfo{
+    background-color: white;
+    width: 0.65fr;
+    margin-right: 5%;
+    height: match-parent;
+    padding-top: 50px;
+  
+}
+
+
+.title{
+    width: 1fr;
+    height: 1fr;
+    grid-area: title;
+}
+.textinfos{
+ background-color: white;
+width: 1fr;
+height: 2fr;
+margin-top: 0px;
+margin-right: 5%;
+}
+@media only screen and (max-width:820px) {
+    .contentholder{
+        width: 100%;
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-areas: "title";
+        border-radius: 0px;
+    }
+    .textinfo{
+        background-color: #ffffff;
+        width: 1fr;
+        height: 2fr;
+        margin-top: 0px;
+        margin-right: 0%;
+        border-radius: 0px;
+    }
+    .infotext{
+        text-align: center;
+        font-size: 100%;
+        padding-left: 10%;
+        border-radius: 0px;
+        padding-right: 10%;
+        padding-bottom: 2px;
+        font-family: sans-serif;
+     }
+     .textinfos{
+        background-color: white;
+       width: 1fr;
+       height: 2fr;
+       margin-top: 0px;
+       border-radius: 0px;
+       margin-right: 0%;
+       }
+     .buttonsdownload{
+        width: 1fr;
+        border-radius: 0px;
+        height: 100%;
+        background-color: #ffffff;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .moviedownloadinfo{
+        background-color: white;
+        width: 1fr;
+        height: 100%;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        margin-right: 0;
+        margin-left: 0;
+        }
+}
+        /* Movie Download Page */
+
+
+
+
+
+#data{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
