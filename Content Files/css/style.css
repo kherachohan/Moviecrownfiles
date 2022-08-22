@@ -23,27 +23,31 @@
 .newbody {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #f5f5f5;
+    background-color: #000000;
 }
 
 .navigationbar {
-    height: 75px;
-    width: 80%;
-    margin-right: 10%;
-    margin-left: 10%;
-    justify-content: center;
+    background-color: white;
+    margin-top: -20px;
     display: flex;
-
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    height: 150px;
 }
 
 .titlemovies {
-    width: auto;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
     height: auto;
-    background-color: rgb(105, 27, 105);
+    background-color: white;
     margin-bottom: 20px;
     text-align: left;
 
 }
+
 .searchbarmain {
     justify-content: center;
     display: flex;
@@ -54,19 +58,22 @@
     text-align: left;
     padding: 5px 5px 5px 5px;
 }
-.searchtitlemain{
+
+.searchtitlemain {
     font-size: 1.5rem;
     text-decoration: none;
     color: black;
     font-family: sans-serif;
 }
-.searchtitlemain:hover{
+
+.searchtitlemain:hover {
     font-size: 1.5rem;
     text-decoration: none;
     color: black;
     font-family: sans-serif;
 }
-.searchbuttonindex{
+
+.searchbuttonindex {
     background-color: white;
     border: 1px solid transparent;
     border-radius: 10px;
@@ -74,23 +81,24 @@
     width: max-content;
     display: flex;
 }
-.searchbtntext{
+
+.searchbtntext {
     font-size: 1.5rem;
     font-weight: 10;
     text-decoration: none;
     color: black;
     font-family: sans-serif;
     position: relative;
-    
+
 }
 
 .titletext {
-    color: #ffffff;
-    font-family: sans-serif;
+    color: #000000;
+    font-family: 'Poppins', 'sans-serif';
     font-size: 20px;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
@@ -98,7 +106,6 @@
 .moviesz {
     width: 250px;
     height: 350px;
-    border: 3px solid rgb(105, 27, 105);
     margin-bottom: 20px;
     border-radius: 10px;
 
@@ -110,45 +117,132 @@
 
 /* Main Content */
 /* Column A*/
-#maincontainer {
-    width: 80%;
+.row-one {
     display: flex;
-    margin-right: 10%;
+    width: 90%;
     margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+}
+
+.columnmain {
+    width: 94%;
+    height: 100%;
+    display: flex;
+    overflow-x: auto;
+    column-gap: 10px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    border-radius: 10px;
 
 }
 
-#acolumn {
-    width: 100%;
-    justify-content: center;
-    background-color: black;
-}
-
-.box-movies {
-    text-align: center;
-    width: 20%;
-    height: max-content;
-    position: relative;
+.titlesofcolumms {
+    height: 50px;
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Poppins', 'sans-serif';
+    text-align: left;
+    width: 87%;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
     border-radius: 5px;
-
-}
-
-.movies {
-    width: match-parent;
-    height: 350px;
-    border: 3px solid rgb(105, 27, 105);
+    padding-top: 10px;
+    padding-left: 20px;
+    font-weight: 500;
+    color: black;
+    margin-top: 100px;
     margin-bottom: 20px;
+}
+.titlesofcolumms1 {
+    height: 50px;
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Poppins', 'sans-serif';
+    text-align: left;
+    width: 87%;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
     border-radius: 5px;
+    padding-top:13.5px;
+    padding-left: 20px;
+    font-weight: 500;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.columnmain::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+.movienamediv {
+    height: 65px;
+    padding-bottom: 10px;
+}
+
+.moviediv {
+    width: 200px;
+    height: 100%;
+
+}
+
+.leftbutton {
+    width: 2.5%;
+    margin-left: 2.5%;
+    background-color: white;
+    border-radius: 10px;
 }
 
 
-.hrefbtn {
-    display: block;
+.rightbutton {
+    width: 2.5%;
+    margin-right: 2.5%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+.imagemain {
+    width: 200px;
+    height: 300px;
     text-decoration: none;
-    width: match-parent;
+}
 
+.imagemain:hover {
+    width: 200px;
+    height: 300px;
+    text-decoration: none;
+}
+
+.hrefmain {
+    color: white;
+    text-decoration: none;
+}
+
+.hrefmain:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.movienamemain {
+    font-size: 17px;
+    margin-top: 10px;
+    font-family: 'Poppins', 'sans-serif';
+    color: white;
 
 }
+
+
+.moviedetailsmain {
+    font-size: 15px;
+    color: white;
+    margin-top: 5px;
+    font-family: 'Poppins', 'sans-serif';
+}
+
 
 
 
@@ -169,11 +263,227 @@
 
 
 
+/* Screen Max 500PX */
+@media only screen and (max-width:600px) {
+    .row-one {
+        display: flex;
+        width: 99.5%;
+        margin-left: 0.25%;
+        margin-right: 0.25%;
+        align-items: center;
+    }
+
+    .columnmain {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        overflow-x: auto;
+        column-gap: 10px;
+        border-radius: 5px;
+        padding-top: 10px;
+    }
+
+    .titlesofcolumms {
+        display: flex;
+        align-items: center;
+        padding-bottom: 10px;
+
+    }
+    .titlesofcolumms {
+        display: flex;
+        align-items: center;
+        padding-bottom: 10px;
+        margin-top: 40px;
+    }
+    .columnmain::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+
+    .movienamediv {
+        height: 65px;
+        padding-bottom: 10px;
+    }
+
+    .moviediv {
+        width: 150px;
+        height: 100%;
+
+    }
+
+    .leftbutton {
+        /* display: none; */
+        width: 40PX;
+        height: 40px;
+        border: 3px solid white;
+        background-color: white;
+    }
+
+
+    .rightbutton {
+        /* display: none; */
+        width: 40PX;
+        height: 40px;
+        border: 3px solid white;
+        background-color: white;
+    }
+
+
+    .imagemain {
+        width: 150px;
+        height: 200px;
+        text-decoration: none;
+    }
+
+    .imagemain:hover {
+        width: 150px;
+        height: 200px;
+        text-decoration: none;
+    }
+
+    .hrefmain {
+        color: white;
+        text-decoration: none;
+    }
+
+    .hrefmain:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+
+
+    .movienamemain {
+        font-size: 17px;
+        margin-top: 10px;
+        font-family: 'Poppins', 'sans-serif';
+        color: white;
+
+    }
+
+
+    .moviedetailsmain {
+        font-size: 15px;
+        color: white;
+        margin-top: 5px;
+        font-family: 'Poppins', 'sans-serif';
+    }
+}
+
+/* Screen Max 500PX */
 
 
 
 
 
+/* Screen Min 751PX Max 1500PX */
+@media only screen and (min-width:600px) and (max-width:2000px) {
+    .row-one {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .columnmain {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        overflow-x: auto;
+        column-gap: 10px;
+        border-radius: 5px;
+    }
+
+    .titlesofcolumms {
+        display: flex;
+        align-items: center;
+        padding-bottom: 10px;
+
+    }
+    .titlesofcolumms {
+        display: flex;
+        align-items: center;
+        padding-bottom: 10px;
+        margin-top: 40px;
+
+    }
+    .columnmain::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+
+    .movienamediv {
+        height: 65px;
+        padding-bottom: 10px;
+    }
+
+    .moviediv {
+        width: 200px;
+        height: 100%;
+        padding: 5px 5px 5px 5px;
+
+    }
+
+    .leftbutton {
+        width: 50PX;
+        height: 50px;
+        border: 5px solid white;
+        background-color: white;
+    }
+
+
+    .rightbutton {
+        width: 50PX;
+        height: 50px;
+        border: 5px solid white;
+        background-color: white;
+    }
+
+
+    .imagemain {
+        width: 200px;
+        height: 300px;
+        text-decoration: none;
+    }
+
+    .imagemain:hover {
+        width: 200px;
+        height: 300px;
+        text-decoration: none;
+    }
+
+    .hrefmain {
+        color: white;
+        text-decoration: none;
+    }
+
+    .hrefmain:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+
+
+    .movienamemain {
+        font-size: 17px;
+        margin-top: 10px;
+        font-family: 'Poppins', 'sans-serif';
+        color: white;
+
+    }
+
+
+    .moviedetailsmain {
+        font-size: 15px;
+        color: white;
+        margin-top: 5px;
+        font-family: 'Poppins', 'sans-serif';
+    }
+}
+
+/* Screen Min 751PX Max 1500PX */
 
 
 
@@ -208,7 +518,7 @@
 
 /* Movie Download Page */
 .moviedownloadinfo {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     width: 1fr;
     height: 100%;
     margin-top: 0px;
@@ -220,12 +530,22 @@
     padding-right: 7%;
 }
 
+.titletexts {
+    color: #000000;
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .downloadinfoheading {
     text-align: left;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
-    background-color: rgb(105, 27, 105);
+    background-color: rgb(255, 255, 255);
     color: #ffffff;
     font-size: 17px;
     margin-top: 0px;
@@ -234,29 +554,37 @@
 
 }
 
-.contentholder {
+.screenshotimage{
     width: 100%;
-    background-color: whitesmoke;
+    border: 4px solid rgb(58, 58, 58);
+    margin-top: -5px;
+}
+.contentholder {
+    width: 70%;
+    background-color: rgb(0, 0, 0);
     display: grid;
     grid-template-columns: 1.15fr 0.65fr;
     grid-template-rows: 1fr;
     column-gap: 10px;
     grid-template-areas: "  title title";
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .imgdownloadpage {
-    width: 50%;
+    width: 70%;
     display: block;
     margin-right: auto;
     margin-left: auto;
     margin-top: 0px;
-    border: 2px solid rgb(105, 27, 105);
+    border: 2px solid rgb(0, 0, 0);
+    margin-bottom: 50px;
 
 }
 
 .infotext {
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
 
     padding-bottom: 2px;
     font-family: sans-serif;
@@ -270,7 +598,7 @@
     margin-left: 10%;
     margin-top: 0px;
     height: 75px;
-    background-color: whitesmoke;
+    background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     display: flex;
@@ -299,7 +627,7 @@
     text-align: center;
     text-decoration: none;
     color: white;
-    background-color: rgb(105, 27, 105);
+    background-color: rgb(0, 0, 0);
     font-size: 20px;
     font-weight: 700;
     text-align: center;
@@ -338,13 +666,37 @@
     margin-right: 5%;
 }
 
-@media only screen and (max-width:820px) {
+.download-page-button-text {
+    text-decoration: none;
+    Font-size: 20px;
+    color: white;
+    font-weight: 500;
+    font-family: sans-serif;
+    padding: 5px 5px 5px 5px;
+}
+
+.button-download-page {
+    background-color: rgb(0, 0, 0);
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: max-content;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 1px solid transparent;
+    padding: 5px 5px 5px 5px;
+}
+
+@media only screen and (max-width:800px) {
     .contentholder {
-        width: 100%;
+        width: 90%;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-areas: "title";
         border-radius: 0px;
+        background-color: #000000;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .textinfo {
@@ -356,14 +708,36 @@
         border-radius: 0px;
     }
 
+    .imgdownloadpage {
+        width: 100%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0px;
+        border: 3px solid rgb(0, 0, 0);
+        border-radius: 10px;
+
+    }
+
+    .titletexts {
+        color: #000000;
+        font-family: 'Poppins', 'sans-serif';
+        font-size: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
     .infotext {
         text-align: center;
-        font-size: 100%;
-        padding-left: 10%;
+        font-size: 17px;
+        padding-left: 2%;
         border-radius: 0px;
-        padding-right: 10%;
+        padding-right: 2%;
         padding-bottom: 2px;
-        font-family: sans-serif;
+        font-family: 'Poppins' sans-serif;
+        font-weight: 550;
     }
 
     .textinfos {
@@ -385,7 +759,7 @@
     }
 
     .moviedownloadinfo {
-        background-color: white;
+        background-color: rgb(255, 255, 255);
         width: 1fr;
         height: 100%;
         margin-top: 0px;
@@ -394,7 +768,28 @@
         margin-right: 0;
         margin-left: 0;
     }
+
+    .download-page-button-text {
+        text-decoration: none;
+        Font-size: 17px;
+        color: white;
+        font-weight: 500;
+        font-family: sans-serif;
+        padding: 5px 5px 5px 5px;
+    }
+    .button-download-page {
+        background-color: rgb(0, 0, 0);
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: max-content;
+        border-radius: 5px;
+        margin-top: 10px;
+        border: 1px solid transparent;
+        padding: 5px 5px 5px 5px;
+    }
 }
+
 
 /* Movie Download Page */
 
@@ -454,7 +849,7 @@
 
 
 
-                                                 /* Search Bar */
+/* Search Bar */
 
 
 
@@ -485,27 +880,33 @@
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-weight: 900;
-    font-family:'Poppins' sans-serif;
+    font-family: 'Poppins' sans-serif;
     width: 100%;
 }
+
+.new {
+    color: auto;
+}
+
 .linksearch:hover {
     font-size: 20px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-weight: 900;
-    font-family:'Poppins' sans-serif;
+    font-family: 'Poppins' sans-serif;
     width: 100%;
 }
+
 .movieimagesearchbar {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    line-height: 380px;
+
 }
 
 .moviegenressearchbar {
     text-decoration: none;
     font-weight: 500;
-    font-family:'Poppins' ,'sans-serif';
+    font-family: 'Poppins', 'sans-serif';
     text-align: left;
     font-size: 15px;
     margin-top: -5px;
@@ -517,12 +918,13 @@
 .titlesearch {
     font-size: 20px;
     font-weight: 500;
-    font-family:'Poppins' , 'sans-serif';
+    font-family: 'Poppins', 'sans-serif';
     text-align: left;
     padding-left: 10px;
     margin-top: 7px;
 }
-.searchbarsearch{
+
+.searchbarsearch {
     width: 80%;
     height: 60px;
     margin-left: 10%;
@@ -535,7 +937,8 @@
     border: 2px solid black;
     align-items: center;
 }
-.searchbarsearch:focus{
+
+.searchbarsearch:focus {
     width: 80%;
     height: 60px;
     margin-left: 10%;
@@ -547,44 +950,60 @@
     border-radius: 15px;
     align-items: center;
 }
-.searchbarsearch::placeholder{
+
+.searchbarsearch::placeholder {
     text-align: center;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
-.navbarsearch{
-    background-color: white; 
+
+.navbarsearch {
+    background-color: white;
     margin-top: -20px;
     display: flex;
-   justify-content: space-between;
-   padding-left: 10%;
-   padding-right: 10%;
-   align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
 }
-.btnsearchpage{
-  height: fit-content;
-  margin-top: 20px;
-  background-color: #ff2c1f;
-  border: 1px solid transparent;
-  padding: 15px 20px 15px 20px;
-  border-radius: 10px;
+
+.btnsearchpage {
+    height: fit-content;
+    margin-top: 20px;
+    background-color: #ff2c1f;
+    border: 1px solid transparent;
+    padding: 15px 20px 15px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.btnsearchpage:hover {
+    height: fit-content;
+    margin-top: 20px;
+    background-color: #ff2c1f;
+    border: 1px solid transparent;
+    padding: 15px 20px 15px 20px;
+    border-radius: 10px;
 
 }
-.a-btn-search{
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-}
-.a-btn-search:hover{
+
+.a-btn-search {
     color: white;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 20px;
     text-decoration: none;
 }
-.logomain{
+
+.a-btn-search:hover {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.logomain {
     font-size: 3em;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -592,10 +1011,12 @@
     font-weight: 500;
     color: black;
     margin-top: 30px;
+    text-decoration: none;
 }
-.logosearchpage{
+
+.logosearchpage {
     height: 70px;
-     margin-top: -20px;
+    margin-top: -20px;
 }
 
 
@@ -611,7 +1032,7 @@
 @media only screen and (min-width: 501px) and (max-width: 1000px) {
     #columnsearch {
         margin-top: 50px;
-        width: 80%;      
+        width: 80%;
         margin-right: 10%;
         margin-left: 10%;
         display: grid;
@@ -621,13 +1042,13 @@
         justify-content: center;
         margin-top: 30px;
     }
-    
+
     .moviecontainersearch {
         width: 100%;
         text-align: center;
-    
+
     }
-    
+
     .linksearch {
         font-size: 20px;
         text-decoration: none;
@@ -635,6 +1056,7 @@
         font-family: sans-serif;
         width: 100%;
     }
+
     .linksearch:hover {
         font-size: 20px;
         text-decoration: none;
@@ -642,33 +1064,35 @@
         font-family: sans-serif;
         width: 100%;
     }
+
     .movieimagesearchbar {
         width: 100%;
         height: 80%;
         object-fit: cover;
     }
-    
+
     .moviegenressearchbar {
         text-decoration: none;
         font-weight: 500;
-        font-family:'Poppins' ,'sans-serif';
+        font-family: 'Poppins', 'sans-serif';
         text-align: left;
         font-size: 10px;
         margin-top: -5px;
         font-weight: 500;
         padding-left: 10px;
-    
+
     }
-    
+
     .titlesearch {
         font-size: 15px;
         font-weight: 500;
-        font-family:'Poppins' , 'sans-serif';
+        font-family: 'Poppins', 'sans-serif';
         text-align: left;
         padding-left: 10px;
         margin-top: 7px;
     }
-    .logomain{
+
+    .logomain {
         font-size: 2em;
         padding-top: 15px;
         padding-bottom: 15px;
@@ -687,9 +1111,9 @@
 
 
 
-@media  screen and (min-width:100px) and (max-width: 500px) {
+@media screen and (min-width:100px) and (max-width: 500px) {
     #columnsearch {
-        width: 100%;      
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 40%);
         height: 100%;
@@ -698,13 +1122,13 @@
         row-gap: 10px;
         column-gap: 1%;
     }
-    
+
     .moviecontainersearch {
         width: 100%;
         text-align: center;
-    
+
     }
-    
+
     .linksearch {
         font-size: 15px;
         text-decoration: none;
@@ -712,6 +1136,7 @@
         font-family: sans-serif;
         width: 100%;
     }
+
     .linksearch:hover {
         font-size: 20px;
         text-decoration: none;
@@ -719,33 +1144,35 @@
         font-family: sans-serif;
         width: 100%;
     }
+
     .movieimagesearchbar {
         width: 100%;
         height: 80%;
         object-fit: cover;
     }
-    
+
     .moviegenressearchbar {
         text-decoration: none;
         font-weight: 500;
-        font-family:'Poppins' ,'sans-serif';
+        font-family: 'Poppins', 'sans-serif';
         text-align: left;
         font-size: 10px;
         margin-top: -5px;
         font-weight: 500;
         padding-left: 10px;
-    
+
     }
-    
+
     .titlesearch {
         font-size: 15px;
         font-weight: 500;
-        font-family:'Poppins' , 'sans-serif';
+        font-family: 'Poppins', 'sans-serif';
         text-align: left;
         padding-left: 10px;
         margin-top: 7px;
     }
-    .logomain{
+
+    .logomain {
         font-size: 1.2em;
         padding-top: 15px;
         padding-bottom: 15px;
@@ -754,31 +1181,35 @@
         color: black;
         margin-top: 30px;
     }
-    .logosearchpage{
+
+    .logosearchpage {
         height: 40px;
     }
-    .btnsearchpage{
+
+    .btnsearchpage {
         height: fit-content;
         margin-top: 20px;
         background-color: #ff2c1f;
         border: 1px solid transparent;
         padding: 10px 15px 10px 15px;
         border-radius: 10px;
-      
-      }
-      .a-btn-search{
-          color: white;
-          font-family: 'Poppins', sans-serif;
-          font-weight: 400;
-          font-size: 15px;
-      }
-      .a-btn-search:hover{
-          color: white;
-          font-family: 'Poppins', sans-serif;
-          font-weight: 400;
-          font-size: 15px;
-          text-decoration: none;
-      }
+
+    }
+
+    .a-btn-search {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .a-btn-search:hover {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        text-decoration: none;
+    }
 }
 
 
@@ -795,7 +1226,7 @@
 @media only screen and (min-width: 1000px) and (max-width: 1100px) {
     #columnsearch {
         margin-top: 50px;
-        width: 80%;      
+        width: 80%;
         margin-right: 10%;
         margin-left: 10%;
         display: grid;
@@ -804,13 +1235,13 @@
         justify-content: center;
         margin-top: 30px;
     }
-    
+
     .moviecontainersearch {
         width: 100%;
         text-align: center;
-    
+
     }
-    
+
     .linksearch {
         font-size: 20px;
         text-decoration: none;
@@ -818,6 +1249,7 @@
         font-family: sans-serif;
         width: 100%;
     }
+
     .linksearch:hover {
         font-size: 20px;
         text-decoration: none;
@@ -825,32 +1257,31 @@
         font-family: sans-serif;
         width: 100%;
     }
+
     .movieimagesearchbar {
         width: 100%;
         height: 80%;
         object-fit: cover;
     }
-    
+
     .moviegenressearchbar {
         text-decoration: none;
         font-weight: 500;
-        font-family:'Poppins' ,'sans-serif';
+        font-family: 'Poppins', 'sans-serif';
         text-align: left;
         font-size: 15px;
         margin-top: -5px;
         font-weight: 500;
         padding-left: 10px;
-    
+
     }
-    
+
     .titlesearch {
         font-size: 20px;
         font-weight: 500;
-        font-family:'Poppins' , 'sans-serif';
+        font-family: 'Poppins', 'sans-serif';
         text-align: left;
         padding-left: 10px;
         margin-top: 7px;
     }
 }
-
-
