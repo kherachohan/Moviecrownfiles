@@ -110,3 +110,13 @@ var button = document.getElementById('right1');
 
          }, speed);
       }
+
+
+
+<script type="text/javascript">
+    var app_url = 'https://omegalinks.in/';
+    var app_api_token = '519d04adb49732cf76fec75024ec8afdb2cc9316';
+    var app_advert = 2;
+    var app_domains = ["https://www.moviecrown.tk"];
+</script>
+<script src='//omegalinks.in/js/full-page-script.js'></script>
