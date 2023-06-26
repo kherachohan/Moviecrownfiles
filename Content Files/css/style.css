@@ -975,19 +975,15 @@ body {
 }
 
 .btnsearchpage {
-    height: fit-content;
-    margin-top: 20px;
     background-color: #ff2c1f;
-    border: 1px solid transparent;
+    border: none;
     padding: 15px 20px 15px 20px;
     border-radius: 10px;
     text-decoration: none;
 }
 .btnsearchpage:hover {
-    height: fit-content;
-    margin-top: 20px;
     background-color: #ff2c1f;
-    border: 1px solid transparent;
+    border: none;
     padding: 15px 20px 15px 20px;
     border-radius: 10px;
 
@@ -1190,10 +1186,8 @@ body {
     }
 
     .btnsearchpage {
-        height: fit-content;
-        margin-top: 20px;
         background-color: #ff2c1f;
-        border: 1px solid transparent;
+        border: none;
         padding: 10px 15px 10px 15px;
         border-radius: 10px;
 
