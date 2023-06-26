@@ -1011,8 +1011,6 @@ body {
 
 .logomain {
     font-size: 3em;
-    padding-top: 15px;
-    padding-bottom: 15px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     color: black;
@@ -1101,8 +1099,6 @@ body {
 
     .logomain {
         font-size: 2em;
-        padding-top: 15px;
-        padding-bottom: 15px;
         font-family: 'Poppins', sans-serif;
         font-weight: 500;
         color: black;
@@ -1182,8 +1178,6 @@ body {
 
     .logomain {
         font-size: 1.2em;
-        padding-top: 15px;
-        padding-bottom: 15px;
         font-family: 'Poppins', sans-serif;
         font-weight: 500;
         color: black;
