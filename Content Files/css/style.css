@@ -977,14 +977,14 @@ body {
 .btnsearchpage {
     background-color: #ff2c1f;
     border: none;
-    padding: 15px 20px 15px 20px;
+    padding: 5px 10px 5px 10px;
     border-radius: 10px;
     text-decoration: none;
 }
 .btnsearchpage:hover {
     background-color: #ff2c1f;
     border: none;
-    padding: 15px 20px 15px 20px;
+    padding: 5px 10px 5px 10px;
     border-radius: 10px;
 
 }
@@ -1188,7 +1188,7 @@ body {
     .btnsearchpage {
         background-color: #ff2c1f;
         border: none;
-        padding: 10px 15px 10px 15px;
+        padding: 5px 10px 5px 10px;
         border-radius: 10px;
 
     }
