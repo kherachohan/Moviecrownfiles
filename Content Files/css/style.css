@@ -19,9 +19,15 @@
     width: extend-to-zoom;
     zoom: 1.0;
 }
-
+body {
+    margin: 0;
+    padding: 0 ;
+    font-family: 'Roboto', sans-serif;
+    background-color: #000000;
+}
 .newbody {
     margin: 0;
+    padding: 0 ;
     font-family: 'Roboto', sans-serif;
     background-color: #000000;
 }
@@ -30,9 +36,9 @@
     background-color: white;
     display: flex;
     justify-content: space-between;
+    align-items: centre ;
     padding-left: 10%;
     padding-right: 10%;
-    align-items: center;
     padding-top: 1vh;
     padding-bottom: 1vh;
 }
